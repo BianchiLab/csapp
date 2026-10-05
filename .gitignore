@@ -1,1 +1,21 @@
+# Local development environment
+Dockerfile
 enter-container.sh
+
+# Shared container workspace
+/workspace/
+
+# Build artifacts
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# Temporary files
+*.tmp
+*.swp
+*~
